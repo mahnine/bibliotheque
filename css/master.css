@@ -1,0 +1,32 @@
+.content_flex{
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 5%;
+
+}
+
+.child {
+  width: 20%;  /* Or whatever */
+  height: 600px; /* Or whatever */
+  margin: auto;  /* Magic! */
+  text-align: justify;
+  flex-grow: 1;
+  margin: 0 5% 0 5%;
+}
+
+.marg{
+margin: 200px;
+text-align: justify;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+   background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
